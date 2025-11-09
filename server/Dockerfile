@@ -6,7 +6,7 @@ COPY requirements.txt .
 
 RUN pip install --system --no-cache -r requirements.txt
 
-COPY app.py .
+COPY server.py .
 
 EXPOSE 5000
 
