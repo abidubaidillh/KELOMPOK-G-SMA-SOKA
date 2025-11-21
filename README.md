@@ -2,7 +2,7 @@
 
 Repo ini merupakan kode dari server yang digunakan dalam pengujian Task Scheduling pada Server IT serta contoh algoritma scheduler untuk keperluan mata kuliah **Strategi Optimasi Komputasi Awan (SOKA)**
 
-## Cara Penggunaan - Dev
+## Persiapan
 
 1. Install `uv` sebagai dependency manager. Lihat [link berikut](https://docs.astral.sh/uv/getting-started/installation/)
 
@@ -23,9 +23,7 @@ VM4_IP=""
 VM_PORT=5000
 ```
 
-4. Algoritma pada contoh di sini merupakan algoritma `Stochastic Hill Climbing`.
-
-![shc_algorithm](https://i.sstatic.net/HISbC.png)
+4. Kelompok kami menggunakan algortima ` Slime Mould Algorithm `
 
 5. Untuk menjalankan server, jalankan docker
 
@@ -66,11 +64,3 @@ uv run scheduler.py
 ```
 
 8. Apabila sukses, akan terdapat hasil berupa file `result.csv` dan pada console akan tampil perhitungan parameter untuk kebutuhan analisis.
-
-`result.csv`
-
-![result csv](./images/result-csv.png)
-
-`console`
-
-![console](./images/console.png)
