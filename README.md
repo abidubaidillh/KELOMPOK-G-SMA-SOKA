@@ -67,6 +67,47 @@ uv run scheduler.py
 
 # Algoritma Slime Module Algorithm
 
+**Slime Mould Algorithm (SMA)** adalah algoritma optimasi yang meniru **perilaku jamur lendir (slime mould)** dalam mencari makanan. Jamur lendir mampu bergerak dan membentuk jalur paling efisien menuju sumber makanan — mirip proses mencari solusi terbaik.
+
+
+## Cara Kerja SMA
+
+Secara sederhana, SMA bekerja melalui tiga langkah utama:
+
+### **1. Eksplorasi (Mencari Area Potensial)**
+
+Seperti jamur lendir yang menyebar ke banyak arah untuk mencari makanan, SMA akan mengacak banyak “kandidat solusi” untuk menemukan area yang menjanjikan.
+
+### **2. Eksploitasi (Memperkuat Jalur Terbaik)**
+
+Ketika kandidat solusi mendekati hasil yang bagus, SMA akan:
+
+* **Menguatkan** jalur menuju solusi tersebut.
+* Menggerakkan kandidat lain untuk mengikuti arah yang sama.
+
+Ini meniru bagaimana jamur lendir memperkuat jalur yang membawa lebih banyak nutrisi.
+
+### **3. Pemilihan Solusi Terbaik**
+
+Setelah beberapa iterasi, SMA menghasilkan **solusi paling optimal**, yaitu jalur paling efisien seperti perilaku jamur lendir menemukan makanan.
+
+Dalam cloud computing, SMA dipakai untuk mengoptimalkan hal-hal seperti:
+
+- Penjadwalan tugas (task scheduling
+
+- Load balancing
+
+- Resource allocation
+
+- Energy optimization
+
+## Alasan memakai SMA
+
+* **Adaptif** → cepat menyesuaikan perubahan beban kerja.
+* **Cepat menemukan solusi baik** di lingkungan yang kompleks.
+* **Efisien** → meniru perilaku biologis yang sangat hemat energi.
+* **Fleksibel** → cocok untuk beragam jenis optimasi.
+  
 # Teknis Uji Coba
 
 # Pembahasan Hasil
