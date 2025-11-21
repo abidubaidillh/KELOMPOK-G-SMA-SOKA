@@ -64,3 +64,10 @@ uv run scheduler.py
 ```
 
 8. Apabila sukses, akan terdapat hasil berupa file `result.csv` dan pada console akan tampil perhitungan parameter untuk kebutuhan analisis.
+
+# Algoritma Slime Module Algorithm
+
+# Teknis Uji Coba
+
+# Pembahasan Hasil
+
